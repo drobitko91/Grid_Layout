@@ -618,3 +618,116 @@ div[class$="text-right"] {
   background-image: url("./img/city-6.jpg");
 }
 /* cities end */
+
+
+/* nature start */
+.nature {
+    display: grid;
+    /* grid-template-columns: repeat(3, 370px);
+    grid-template-rows: 125px repeat(4, 370px); */
+    gap: 15px 15px;
+    grid-template:
+      "nature__title    nature__title    nature__title" 125px
+      "nature__img1 nature__img2 nature__img2" 370px
+      "nature__img3 nature__img3 nature__img4" 370px
+      "nature__img3 nature__img3 nature__img4" 370px
+      "nature__img5 nature__img6 nature__img6" 370px
+      / 370px 370px 370px;
+    grid-area: nature;
+  }
+  
+  .nature__title {
+    grid-area: nature__title;
+    justify-self: center;
+  }
+  
+  .nature__img1 {
+    grid-area: nature__img1;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/nature-1.jpg");
+  }
+  .nature__img1:hover {
+    grid-area: nature__img1;
+    background-image: url("./img/nature-1.jpg");
+  }
+  
+  .nature__img2 {
+    grid-area: nature__img2;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/nature-2.jpg");
+  }
+  .nature__img2:hover {
+    grid-area: nature__img2;
+    background-image: url("./img/nature-2.jpg");
+  }
+  
+  .nature__img3 {
+    grid-area: nature__img3;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/nature-3.jpg");
+  }
+  .nature__img3:hover {
+    grid-area: nature__img3;
+    background-image: url("./img/nature-3.jpg");
+  }
+  
+  .nature__img4 {
+    grid-area: nature__img4;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/nature-4.jpg");
+  }
+  .nature__img4:hover {
+    grid-area: nature__img4;
+    background-image: url("./img/nature-4.jpg");
+  }
+  
+  .nature__img5 {
+    grid-area: nature__img5;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/nature-5.jpg");
+  }
+  .nature__img5:hover {
+    grid-area: nature__img5;
+    background-image: url("./img/nature-5.jpg");
+  }
+  
+  .nature__img6 {
+    grid-area: nature__img6;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/nature-6.jpg");
+  }
+  .nature__img6:hover {
+    grid-area: nature__img6;
+    background-image: url("./img/nature-6.jpg");
+  }
+  /* nature end */

@@ -427,7 +427,7 @@ div[class^="img"]:hover div[class^="button"] {
 }
 
 h1 {
-  font-family: "Delius Unicase";
+    font-family: 'Delius Unicase', cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
@@ -731,3 +731,180 @@ div[class$="text-right"] {
     background-image: url("./img/nature-6.jpg");
   }
   /* nature end */
+
+  
+/* people start */
+
+.people {
+    display: grid;
+    /* grid-template-columns: repeat(3, 370px);
+    grid-template-rows: 125px repeat(5, 370px); */
+    gap: 15px 15px;
+    grid-template:
+      "people__title    people__title    people__title" 125px
+      "people__img1 people__img2 people__img3" 370px
+      "people__img4 people__img2 people__img6" 370px
+      "people__img7 people__img5 people__img6" 370px
+      "people__img7 people__img8 people__img8" 370px
+      "people__img9 people__img9 people__img10" 370px
+      / 370px 370px 370px;
+    grid-area: people;
+  }
+  
+  .people__title {
+    grid-area: people__title;
+    justify-self: center;
+  }
+  
+  .people__img1 {
+    grid-area: people__img1;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-1.jpg");
+  }
+  .people__img1:hover {
+    grid-area: people__img1;
+    background-image: url("./img/people-1.jpg");
+  }
+  
+  .people__img2 {
+    grid-area: people__img2;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-2.jpg");
+  }
+  .people__img2:hover {
+    grid-area: people__img2;
+    background-image: url("./img/people-2.jpg");
+  }
+  
+  .people__img3 {
+    grid-area: people__img3;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-3.jpg");
+  }
+  .people__img3:hover {
+    grid-area: people__img3;
+    background-image: url("./img/people-3.jpg");
+  }
+  
+  .people__img4 {
+    grid-area: people__img4;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-4.jpg");
+  }
+  .people__img4:hover {
+    grid-area: people__img4;
+    background-image: url("./img/people-4.jpg");
+  }
+  
+  .people__img5 {
+    grid-area: people__img5;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-5.jpg");
+  }
+  .people__img5:hover {
+    grid-area: people__img5;
+    background-image: url("./img/people-5.jpg");
+  }
+  
+  .people__img6 {
+    grid-area: people__img6;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-6.jpg");
+  }
+  .people__img6:hover {
+    grid-area: people__img6;
+    background-image: url("./img/people-6.jpg");
+  }
+  
+  .people__img7 {
+    grid-area: people__img7;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-7.jpg");
+  }
+  .people__img7:hover {
+    grid-area: people__img7;
+    background-image: url("./img/people-7.jpg");
+  }
+  
+  .people__img8 {
+    grid-area: people__img8;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-8.jpg");
+  }
+  .people__img8:hover {
+    grid-area: people__img8;
+    background-image: url("./img/people-8.jpg");
+  }
+  
+  .people__img9 {
+    grid-area: people__img9;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-9.jpg");
+  }
+  .people__img9:hover {
+    grid-area: people__img9;
+    background-image: url("./img/people-9.jpg");
+  }
+  
+  .people__img10 {
+    grid-area: people__img10;
+    background-image: linear-gradient(
+        360deg,
+        #241f24 0%,
+        rgba(91, 91, 91, 0.447552) 34.11%,
+        rgba(187, 186, 192, 0.26) 62.5%
+      ),
+      url("./img/people-10.jpg");
+  }
+  .people__img10:hover {
+    grid-area: people__img10;
+    background-image: url("./img/people-10.jpg");
+  }
+
+
+  /*  people end */
